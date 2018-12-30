@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test thread-count="5" verbose="0" name="Command line test(failed)">
+    <classes>
+      <class name="com.selenium.framework.datadriven.suiteB.Test1">
+        <methods>
+          <include name="test1" invocation-numbers="0 1 2"/>
+        </methods>
+      </class> <!-- com.selenium.framework.datadriven.suiteB.Test1 -->
+      <class name="com.selenium.framework.datadriven.Portfolio.Test2">
+        <methods>
+          <include name="test2" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.selenium.framework.datadriven.Portfolio.Test2 -->
+      <class name="com.selenium.framework.datadriven.Portfolio.LoginTest">
+        <methods>
+          <include name="loginTest" invocation-numbers="0 2 3"/>
+        </methods>
+      </class> <!-- com.selenium.framework.datadriven.Portfolio.LoginTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->

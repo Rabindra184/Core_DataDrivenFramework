@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Portfolio">
+<test name="LoginTest">
+    <classes>
+        <class name="com.selenium.framework.datadriven.Portfolio.LoginTest" ></class>  
+    </classes>
+</test>
+<test name="Least Pe rAssetTest">
+    <classes>
+        <class name="com.selenium.framework.datadriven.Portfolio.LeastPerAssetTest" ></class>  
+    </classes>
+</test>
+</suite>
+

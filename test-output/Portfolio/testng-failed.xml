@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Portfolio]">
+  <listeners>
+    <listener class-name="com.selenium.framework.datadriven.CustomListener"/>
+  </listeners>
+  <test thread-count="5" name="LoginTest(failed)">
+    <classes>
+      <class name="com.selenium.framework.datadriven.Portfolio.LoginTest">
+        <methods>
+          <include name="initLogs"/>
+          <include name="close"/>
+          <include name="loginTest" invocation-numbers="0 1 2 3"/>
+        </methods>
+      </class> <!-- com.selenium.framework.datadriven.Portfolio.LoginTest -->
+    </classes>
+  </test> <!-- LoginTest(failed) -->
+  <test thread-count="5" name="Least Pe rAssetTest(failed)">
+    <classes>
+      <class name="com.selenium.framework.datadriven.Portfolio.LeastPerAssetTest">
+        <methods>
+          <include name="close"/>
+          <include name="leastPerAssetTest" invocation-numbers="0"/>
+          <include name="initLogs"/>
+        </methods>
+      </class> <!-- com.selenium.framework.datadriven.Portfolio.LeastPerAssetTest -->
+    </classes>
+  </test> <!-- Least Pe rAssetTest(failed) -->
+</suite> <!-- Failed suite [Portfolio] -->

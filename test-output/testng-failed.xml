@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Stock]">
+  <listeners>
+    <listener class-name="com.selenium.framework.datadriven.CustomListener"/>
+  </listeners>
+  <test thread-count="5" name="AddStock(failed)">
+    <classes>
+      <class name="com.selenium.framework.datadriven.StockSuite.AddStock">
+        <methods>
+          <include name="initLogs"/>
+          <include name="close"/>
+          <include name="AddStock" invocation-numbers="1 2"/>
+        </methods>
+      </class> <!-- com.selenium.framework.datadriven.StockSuite.AddStock -->
+    </classes>
+  </test> <!-- AddStock(failed) -->
+</suite> <!-- Failed suite [Stock] -->

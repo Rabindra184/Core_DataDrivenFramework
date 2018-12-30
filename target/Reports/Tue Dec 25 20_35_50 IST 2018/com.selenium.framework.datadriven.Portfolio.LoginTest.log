@@ -1,0 +1,8 @@
+2018-12-25 20:35:51,115 DEBUG [LoginTest] Executing the LoginTest
+2018-12-25 20:35:51,185 DEBUG [LoginTest] Skipping the test LoginTest inside the suite PortFolioTest
+2018-12-25 20:35:51,191 DEBUG [LoginTest] Executing the LoginTest
+2018-12-25 20:35:51,243 DEBUG [LoginTest] Skipping the test LoginTest inside the suite PortFolioTest
+2018-12-25 20:35:51,246 DEBUG [LoginTest] Executing the LoginTest
+2018-12-25 20:35:51,302 DEBUG [LoginTest] Skipping the test LoginTest inside the suite PortFolioTest
+2018-12-25 20:35:51,308 DEBUG [LoginTest] Executing the LoginTest
+2018-12-25 20:35:51,365 DEBUG [LoginTest] Skipping the test LoginTest inside the suite PortFolioTest

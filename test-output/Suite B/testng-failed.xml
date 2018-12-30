@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite B]">
+  <listeners>
+    <listener class-name="com.selenium.framework.datadriven.CustomListener"/>
+  </listeners>
+  <test thread-count="5" name="Test1(failed)">
+    <classes>
+      <class name="com.selenium.framework.datadriven.suiteB.Test1">
+        <methods>
+          <include name="test1" invocation-numbers="0 1 2"/>
+        </methods>
+      </class> <!-- com.selenium.framework.datadriven.suiteB.Test1 -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite B] -->

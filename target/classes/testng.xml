@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="My suite">
+<listeners>
+    <listener class-name="com.selenium.framework.datadriven.CustomListener" />
+</listeners>
+  <suite-files>
+   <suite-file path="./Portfolio.xml" />
+   <suite-file path="./Stock.xml"/>
+  </suite-files>
+</suite>
